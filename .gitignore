@@ -1,0 +1,7 @@
+.idea
+web/node_modules/
+web/dist/
+web/npm-debug.log
+web/test/unit/coverage
+web/test/e2e/reports
+web/selenium-debug.log
