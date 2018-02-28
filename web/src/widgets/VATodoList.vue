@@ -115,7 +115,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'TodoList',
   mounted () {
@@ -127,7 +126,7 @@ export default {
       zIndex: 999999
     })
     /* The todo list plugin */
-    $(this.$el).find('.todo-list').todolist({
+    $(this.$el).find('.todo-list').todoList({
       onCheck: function (ele) {
         window.console.log('The element has been checked')
         return ele
